@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 127.0.0.1
+  dis:
+    store:
+      type: redis
+    active: true
+logging:
+  level:
+    org.springframework: debug
