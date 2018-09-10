@@ -1,0 +1,26 @@
+{
+  "hints": [
+    {
+      "name": "spring.dis.store.type",
+      "values": [
+        {
+          "value": "redis"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.itxiaoer.dis.store.DisStoreProperties",
+      "name": "DisStoreProperties",
+      "type": "com.itxiaoer.dis.store.DisStoreProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itxiaoer.dis.store.DisStoreProperties",
+      "name": "spring.dis.store.type",
+      "type": "java.lang.String"
+    }
+  ]
+}

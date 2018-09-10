@@ -1,0 +1,29 @@
+{
+  "hints": [
+    {
+      "name": "spring.dis.active",
+      "values": [
+        {
+          "value": true
+        },
+        {
+          "value": false
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.itxiaoer.dis.core.config.DisProperties",
+      "name": "DisProperties",
+      "type": "com.itxiaoer.dis.core.config.DisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itxiaoer.dis.core.config.DisProperties",
+      "name": "spring.dis.active",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
