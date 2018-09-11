@@ -22,9 +22,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <itxiaoer.commons.version>1.0.0-SNAPSHOT</itxiaoer.commons.version>
+        <itxiaoer.commons.version>2.0.0-SNAPSHOT</itxiaoer.commons.version>
         <itxiaoer.dis.version>0.0.1-SNAPSHOT</itxiaoer.dis.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <repositories>
