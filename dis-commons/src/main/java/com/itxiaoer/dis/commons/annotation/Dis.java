@@ -12,7 +12,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface Dis {
-
-    String value();
-
+    /**
+     * How long does it take to submit
+     */
+    long expireTime();
 }

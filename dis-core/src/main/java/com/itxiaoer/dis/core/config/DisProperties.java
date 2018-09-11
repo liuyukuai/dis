@@ -11,5 +11,12 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = "spring.dis")
 public class DisProperties {
-    private String active;
+    /**
+     * active
+     */
+    private boolean active;
+    /**
+     * appId
+     */
+    private String appId;
 }

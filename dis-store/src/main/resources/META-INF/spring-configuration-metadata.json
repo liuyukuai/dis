@@ -5,6 +5,9 @@
       "values": [
         {
           "value": "redis"
+        },
+        {
+          "value": "local"
         }
       ]
     }

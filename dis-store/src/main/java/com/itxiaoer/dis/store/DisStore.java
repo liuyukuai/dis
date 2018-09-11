@@ -12,8 +12,24 @@ public interface DisStore {
      * @param key        key
      * @param value      value
      * @param expireTime expireTime unit: seconds
-     * @return
+     * @return true or false
      */
     Boolean setNx(String key, String value, long expireTime);
+
+    /**
+     * delete key
+     *
+     * @param key key
+     * @return true or false
+     */
+    Boolean delete(String key);
+
+    /**
+     * get key
+     *
+     * @param key key
+     * @return value
+     */
+    String get(String key);
 
 }

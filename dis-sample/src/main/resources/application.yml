@@ -5,6 +5,7 @@ spring:
     store:
       type: redis
     active: true
+    appId: dis-sample
 logging:
   level:
-    org.springframework: debug
+    org.springframework: error

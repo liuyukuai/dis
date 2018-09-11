@@ -23,7 +23,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <itxiaoer.commons.version>0.0.1-SNAPSHOT</itxiaoer.commons.version>
+        <itxiaoer.commons.version>1.0.0-SNAPSHOT</itxiaoer.commons.version>
         <itxiaoer.dis.version>0.0.1-SNAPSHOT</itxiaoer.dis.version>
     </properties>
 
@@ -50,6 +50,12 @@
                 <version>${itxiaoer.commons.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.itxiaoer.commons</groupId>
+                <artifactId>commons-core</artifactId>
+                <version>${itxiaoer.commons.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.itxiaoer.dis</groupId>
@@ -67,6 +73,12 @@
                 <groupId>com.itxiaoer.dis</groupId>
                 <artifactId>dis-store</artifactId>
                 <version>${itxiaoer.dis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.8</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

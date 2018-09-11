@@ -5,6 +5,6 @@ package com.itxiaoer.dis.commons;
  *
  * @author : liuyk
  */
-public interface DisContent {
-    String content();
+public interface Dis {
+    String dis();
 }

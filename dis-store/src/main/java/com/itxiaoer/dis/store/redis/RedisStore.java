@@ -14,6 +14,7 @@ public class RedisStore implements DisStore {
 
     @Resource
     private ValueOperations<String, String> valueOperations;
+
     @Resource
     private RedisTemplate<String, String> redisTemplate;
 
@@ -24,5 +25,15 @@ public class RedisStore implements DisStore {
             redisTemplate.expire(key, expireTime, TimeUnit.SECONDS);
         }
         return success;
+    }
+
+    @Override
+    public Boolean delete(String key) {
+        return this.redisTemplate.delete(key);
+    }
+
+    @Override
+    public String get(String key) {
+        return this.valueOperations.get(key);
     }
 }

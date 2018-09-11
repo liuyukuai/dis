@@ -10,6 +10,9 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "spring.dis.appId"
     }
   ],
   "groups": [
@@ -24,6 +27,11 @@
       "sourceType": "com.itxiaoer.dis.core.config.DisProperties",
       "name": "spring.dis.active",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.itxiaoer.dis.core.config.DisProperties",
+      "name": "spring.dis.appId",
+      "type": "java.lang.String"
     }
   ]
 }

@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class DisRedisAutoConfiguration {
 
     @Bean
-    public DisStore disStore() {
+    public DisStore disRemoteStore() {
         return new RedisStore();
     }
 }
