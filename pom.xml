@@ -90,6 +90,8 @@
         </dependency>
     </dependencies>
 
+    <url>http://www.itxiaoer.com</url>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -198,8 +200,6 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <useReleaseProfile>false</useReleaseProfile>
-                    <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
