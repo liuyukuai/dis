@@ -1,7 +1,10 @@
-# dis
+# dis（Distributed Idempotence Service）
 
 ## 项目介绍
 基于Spring Boot + Redis幂等性框架
+
+## 执行流程
+
 
 ## 如何使用
 
@@ -162,3 +165,30 @@ public class ExceptionAdvice {
 }
 
 ```
+
+## 参数说明
+
+- 启动参数
+
+|名称|值|说明|
+|----|----|---|
+|spring.dis.active|true\|false|是否启用dis|
+|spring.dis.appId|应用唯一名称|在微服务架构下，防止请求参数相同|
+|spring.dis.store.type|使用存储的类型|redis，目前只支持redis|
+
+- 业务参数
+
+|名称|值|说明|
+|----|----|---|
+|expireTime|执行业务方法的有效时间|再请求参数一致情况下，该方法多长时间不可重复|
+
+##  注解说明
+
+- @Dis
+标注该方法是否要求幂等
+- @DisInclude
+标注该参数为幂等内容的一部份
+
+## 接口
+- Dis
+实现Dis接口，并重写dis方法，该方法提供该操作唯一性的内容特性
