@@ -1,4 +1,4 @@
-# dis（Distributed Idempotence Service）
+# dis（Distributed Idempotence Structure）
 
 ## 项目介绍
 基于Spring Boot + Redis幂等性框架
@@ -194,3 +194,7 @@ public class ExceptionAdvice {
 ## 接口
 - Dis
 实现Dis接口，并重写dis方法，该方法提供该操作唯一性的内容特性
+
+## License
+
+
