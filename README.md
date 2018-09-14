@@ -4,7 +4,7 @@
 基于Spring Boot + Redis幂等性框架
 
 ## 执行流程
-
+在编写中
 
 ## 如何使用
 
@@ -46,6 +46,8 @@ public class MyResponse<T> implements DisResponse<T> {
 }
 
 ```
+完整例子见dis-sample
+
  ### 编写请求
  
 - 简单参数
