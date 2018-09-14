@@ -3,6 +3,9 @@ package com.itxiaoer.dis.sample.web;
 import com.itxiaoer.dis.commons.Dis;
 import lombok.Data;
 
+/**
+ * @author : liuyk
+ */
 @Data
 public class ParamsDto implements Dis {
     private String id;

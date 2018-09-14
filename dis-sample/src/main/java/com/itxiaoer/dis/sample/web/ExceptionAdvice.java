@@ -15,10 +15,8 @@ public class ExceptionAdvice {
 
 
     @ResponseBody
-    @SuppressWarnings("unchecked")
     @ExceptionHandler({DisException.class})
     public <T> MyResponse<T> handleDisException(DisException e) {
-        //log.error(e.getMessage(), e);
         return MyResponse.fail(e.getMessage());
     }
 
