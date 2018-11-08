@@ -45,10 +45,10 @@ public class DisAspect {
         Dis dis = signature.getMethod().getAnnotation(Dis.class);
         String content = ReflectUtils.find(joinPoint);
         String id = new Md5ID(disProperties.getAppId(), content).id();
-        disLogger.debug(DisAspect.class, " dis  begin  [id = null , content = {} ] ", content);
+        disLogger.debug(DisAspect.class, " dis  begin  [id = {} , content = {} ] ", id, content);
         // 区分是存在，还是出现异常
         Boolean success = this.disTemplate.setNx(id, content, dis.expireTime());
-        disLogger.debug(DisAspect.class, " dis  store  [id = {} , content = {} ] ", id, content);
+        disLogger.debug(DisAspect.class, " dis  store  [id = {} , content = {},success = {} ] ", id, content, success);
         // not delete id
         if (!success) {
             // false

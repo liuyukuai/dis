@@ -11,6 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author : liuyk
  */
 @Component
+@SuppressWarnings("unused")
 public class DisLogger {
     private static final Map<Class<?>, Logger> LOGGER_MAP = new ConcurrentHashMap<>();
 

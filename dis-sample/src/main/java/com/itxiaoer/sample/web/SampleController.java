@@ -1,4 +1,4 @@
-package com.itxiaoer.dis.sample.web;
+package com.itxiaoer.sample.web;
 
 import com.itxiaoer.dis.commons.annotation.Dis;
 import com.itxiaoer.dis.commons.annotation.DisInclude;

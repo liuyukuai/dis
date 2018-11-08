@@ -1,4 +1,4 @@
-package com.itxiaoer.dis.sample;
+package com.itxiaoer.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

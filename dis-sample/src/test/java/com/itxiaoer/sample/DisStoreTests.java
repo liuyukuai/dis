@@ -1,4 +1,4 @@
-package com.itxiaoer.dis.sample;
+package com.itxiaoer.sample;
 
 import com.itxiaoer.dis.store.DisStore;
 import org.junit.Test;

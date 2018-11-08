@@ -1,4 +1,4 @@
-package com.itxiaoer.dis.sample.web;
+package com.itxiaoer.sample.web;
 
 import com.itxiaoer.dis.commons.exception.DisException;
 import lombok.extern.slf4j.Slf4j;
