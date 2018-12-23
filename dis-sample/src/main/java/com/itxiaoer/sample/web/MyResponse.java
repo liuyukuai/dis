@@ -1,6 +1,6 @@
 package com.itxiaoer.sample.web;
 
-import com.itxiaoer.dis.commons.DisResponse;
+import com.itxiaoer.commons.core.page.Responsive;
 import lombok.Data;
 
 import java.util.Objects;
@@ -10,7 +10,7 @@ import java.util.Objects;
  */
 @Data
 @SuppressWarnings("all")
-public class MyResponse<T> implements DisResponse<T> {
+public class MyResponse<T> implements Responsive {
 
     /**
      * code

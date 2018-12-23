@@ -1,6 +1,6 @@
 package com.itxiaoer.dis.core.aspect;
 
-import com.itxiaoer.dis.commons.DisResponse;
+import com.itxiaoer.commons.core.page.Responsive;
 import com.itxiaoer.dis.commons.annotation.Dis;
 import com.itxiaoer.dis.commons.exception.DisException;
 import com.itxiaoer.dis.commons.logger.DisLogger;
@@ -71,10 +71,10 @@ public class DisAspect {
                 throw new DisException(throwable);
             }
 
-            if (!(proceed instanceof DisResponse)) {
+            if (!(proceed instanceof Responsive)) {
                 throw new DisException(signature.getClass().getName() + "#" + signature.getMethod().getName() + " return response must be implements DisResponse. ");
             }
-            DisResponse response = (DisResponse) proceed;
+            Responsive response = (Responsive) proceed;
             // success
             if (response.isSuccess()) {
                 // 判断结果，
