@@ -11,6 +11,7 @@ import javax.annotation.Resource;
 @Component
 @SuppressWarnings("unused")
 public class DisTemplate {
+
     @Resource
     private DisStore disStore;
 

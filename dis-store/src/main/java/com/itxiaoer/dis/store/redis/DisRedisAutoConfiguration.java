@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @author : liuyk
  */
 @Configuration
-@ConditionalOnProperty(name = "spring.dis.store.type", havingValue = DisStoreConstants.STORE_TYPE_REDIS)
+@ConditionalOnProperty(name = "spring.dis.store.type", havingValue = DisStoreConstants.STORE_TYPE_REDIS, matchIfMissing = true)
 public class DisRedisAutoConfiguration {
 
     @Bean

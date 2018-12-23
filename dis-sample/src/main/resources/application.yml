@@ -3,7 +3,7 @@ spring:
     host: 127.0.0.1
   dis:
     store:
-      type: redis
+#      type: redis
     active: true
     appId: dis-sample
 logging:
