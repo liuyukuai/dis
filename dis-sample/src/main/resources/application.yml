@@ -4,7 +4,7 @@ spring:
   dis:
     store:
 #      type: redis
-    active: true
+    active: false
     appId: dis-sample
 logging:
   level:
