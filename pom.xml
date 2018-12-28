@@ -4,7 +4,7 @@
 
     <groupId>com.itxiaoer.dis</groupId>
     <artifactId>dis</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>dis</name>
@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <itxiaoer.commons.version>2.1.3</itxiaoer.commons.version>
-        <itxiaoer.dis.version>1.0.4</itxiaoer.dis.version>
+        <itxiaoer.dis.version>1.0.5-SNAPSHOT</itxiaoer.dis.version>
         <java.version>1.8</java.version>
     </properties>
 
@@ -113,7 +113,7 @@
             scm:git:https://github.com/liuyukuai/dis.git
         </developerConnection>
         <url>https://github.com/liuyukuai/dis</url>
-        <tag>v1.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
