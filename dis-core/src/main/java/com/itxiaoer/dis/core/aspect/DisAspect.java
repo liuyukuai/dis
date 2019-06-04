@@ -72,8 +72,9 @@ public class DisAspect {
             }
 
             if (!(proceed instanceof Responsive)) {
-                throw new DisException(signature.getClass().getName() + "#" + signature.getMethod().getName() + " return response must be implements DisResponse. ");
+                throw new DisException(signature.getClass().getName() + "#" + signature.getMethod().getName() + " return response must be implements Responsive. ");
             }
+            // 此处服务器断电如何处理？单位时间请求无法处理? TODO 
             Responsive response = (Responsive) proceed;
             // success
             if (response.isSuccess()) {
