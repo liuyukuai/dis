@@ -196,5 +196,5 @@ public class ExceptionAdvice {
 实现Dis接口，并重写dis方法，该方法提供该操作唯一性的内容特性
 
 ## License
-
+The project is licensed under the Apache 2 license
 
