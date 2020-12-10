@@ -8,4 +8,4 @@ spring:
     appId: dis-sample
 logging:
   level:
-    org.springframework: error
+    org.springframework: info
