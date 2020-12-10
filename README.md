@@ -3,6 +3,8 @@
 ## 项目介绍
 基于Spring Boot + Redis幂等性框架
 
+底层验证基于Lua脚本实现
+
 ## 执行流程
 在编写中
 
@@ -174,7 +176,7 @@ public class ExceptionAdvice {
 
 |名称|值|说明|
 |----|----|---|
-|spring.dis.active|true\|false|是否启用dis|
+|spring.dis.active|true|false|是否启用dis|
 |spring.dis.appId|应用唯一名称|在微服务架构下，防止请求参数相同|
 |spring.dis.store.type|使用存储的类型|redis，目前只支持redis|
 
